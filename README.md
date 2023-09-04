@@ -1,9 +1,10 @@
 # hmwrk-parsing
 Парсер результатов домашних заданий с api Онлайн-школы
+
 Перед запуском скрипта нужно установить библиотеки:
 
     pip install asyncio aiohttp bs4 configparser datetime re csv lxml
-Также необходимо настроить config.ini по шаблону:
+Необходимо настроить config.ini по шаблону:
 
     [main]
     email = ***@100points.ru # почта (логин)
